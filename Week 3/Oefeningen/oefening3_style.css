@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, serif;
+}
+body {
+    background-color: #626060;
+}
+h1 {
+    color: #25FF00;
+}
+main {
+    list-style-type: square;
+}
+article a {
+    color: black;
+}
+a {
+    color: white;
+}
+article {
+    padding: 25px;
+    margin: 15px auto;
+    border: 2px solid black;
+}
+header ul {
+    list-style-image: url("../../Week 2/Oefeningen/assets/music icon.png");
+}
+header ol {
+    color: white;
+}
+header a:hover {
+    font-size: 20px;
+    font-style: italic;
+}
+
+td, th {
+    border: 1px solid white;
+    color: white;
+}
+
+td {
+    height: 15px;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+table{
+    border-spacing: 0;
+}
+
+table td:first-of-type {
+    width: 350px;
+}
+
+.festlink {
+    border: 1px solid #25FF00;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    text-decoration: none;
+    color:white;
+}
+.title {
+    color: #1CDF00;
+}
+.festlink:hover {
+    color: #25FF00;
+}
+#pukkelpop {
+    background-color: #ffb3ba;
+}
+#werchter {
+    background-color: #ffdfba;
+}
+#tomorrowland {
+    background-color: #ffffba;
+}
+#graspop {
+    background-color: #baffc9;
+}
+#dourfestival {
+    background-color: #bae1ff;
+}
+
+.wiki {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,27 @@
+* {
+    background-color: #151c28;
+}
+article {
+    border: solid 2px #ffe14f;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 5px;
+    width: 50%;
+}
+article img {
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+}
+article:hover {
+    background-color: #8daec6;
+}
+h1 {
+    text-align: center;
+    color: #ffe14f;
+    font-size: 30px;
+}
+
+img, audio {
+    background: transparent;
+}

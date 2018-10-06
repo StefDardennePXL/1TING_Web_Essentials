@@ -1,0 +1,58 @@
+* {
+    background-image: url(../Assets/Images/hout.jpg);
+}
+
+table {
+    border: 3px brown solid;
+    display: inline-block;
+    border-spacing: 0;
+}
+
+td {
+    width: 75px;
+    height: 75px;
+    border: 1px brown solid;
+    text-align: center;
+}
+
+img {
+    background: transparent;
+}
+
+.wittestart td:nth-child(odd) {
+    background-image: url("../Assets/Images/witte-marmer.jpg");
+}
+
+.wittestart td:nth-child(even) {
+    background-image: url("../Assets/Images/zwarte-marmer.jpg");
+}
+
+.zwartestart td:nth-child(odd) {
+    background-image: url("../Assets/Images/zwarte-marmer.jpg");
+}
+
+.zwartestart td:nth-child(even) {
+    background-image: url("../Assets/Images/witte-marmer.jpg");
+}
+
+.beschrijving {
+    float: right;
+    width: 25%;
+    border: 3px solid brown;
+    height: 350px;
+    font-size: 16px;
+    background-image: url("../Assets/Images/witte-marmer.jpg");
+    padding: 10px;
+}
+
+.titel {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    background: transparent;
+}
+
+.beschrijving p {
+    line-height: 5px;
+}
+
