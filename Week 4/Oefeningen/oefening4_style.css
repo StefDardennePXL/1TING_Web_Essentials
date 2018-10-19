@@ -1,0 +1,33 @@
+body {
+    background-color: #46211a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #a53821;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+#img {
+    position: relative;
+    bottom: -20px;
+}

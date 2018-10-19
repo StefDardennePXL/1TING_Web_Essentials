@@ -1,0 +1,44 @@
+body {
+    background-color: #fbd1a2;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #1b5fb7;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #7dcfb6;
+    width: 20vw;
+    height: 20vw;
+    margin: 10px 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #f79256;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer p {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #1b5fb7;
+}
+
+button:hover {
+    background-color: #07c1c4;
+}

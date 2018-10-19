@@ -1,0 +1,30 @@
+* {
+    background-color: #151c28;
+    box-sizing: border-box;
+}
+article {
+    border: solid 2px #ffe14f;
+    border-radius: 5px;
+    width: 24%;
+    display: inline-block;
+    min-width: 200px;
+}
+article img {
+
+    display: inline-block;
+    padding 0 auto;
+}
+article:hover {
+    background-color: #8daec6;
+}
+h1 {
+    text-align: center;
+    color: #ffe14f;
+    font-size: 30px;
+}
+
+img, audio {
+    background: transparent;
+    width: 100%;
+}
+
